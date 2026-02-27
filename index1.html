@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Felipe Mesquita | Dev</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#0f0f0f,#1a1a2e);
+  color:white;
+}
+
+header{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background: radial-gradient(circle at top,#16213e,#0f0f0f);
+}
+
+header h1{
+  font-size:3rem;
+}
+
+header span{
+  color:#00f5d4;
+}
+
+header p{
+  margin-top:15px;
+  opacity:0.8;
+}
+
+.btn{
+  margin-top:25px;
+  padding:12px 25px;
+  background:#00f5d4;
+  color:black;
+  border:none;
+  border-radius:30px;
+  cursor:pointer;
+  font-weight:600;
+  transition:0.3s;
+  text-decoration:none;
+}
+
+.btn:hover{
+  transform:scale(1.05);
+  box-shadow:0 0 20px #00f5d4;
+}
+
+section{
+  padding:80px 10%;
+}
+
+.section-title{
+  font-size:2rem;
+  margin-bottom:40px;
+  border-left:5px solid #00f5d4;
+  padding-left:15px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:#1f1f2e;
+  padding:25px;
+  border-radius:15px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  background:#27293d;
+}
+
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:15px;
+}
+
+.skill{
+  background:#00f5d4;
+  color:black;
+  padding:8px 15px;
+  border-radius:20px;
+  font-weight:600;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  background:#0f0f0f;
+  opacity:0.7;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Felipe <span>Mesquita</span></h1>
+<p>Desenvolvedor focado em Jogos 2D, Python e IA</p>
+<a href="#projetos" class="btn">Ver Projetos</a>
+</header>
+
+<section id="projetos">
+<h2 class="section-title">Meus Projetos</h2>
+<div class="cards">
+
+<div class="card">
+<h3>🎮 Jogos 2D em Python</h3>
+<p>Criação de jogos usando Pygame com mecânicas próprias e sistemas de pontuação.</p>
+</div>
+
+<div class="card">
+<h3>🤖 Chatbot com API</h3>
+<p>Integração com API de IA para criar assistentes inteligentes.</p>
+</div>
+
+<div class="card">
+<h3>🌐 Sites Responsivos</h3>
+<p>Desenvolvimento de páginas modernas usando HTML, CSS e JavaScript.</p>
+</div>
+
+<div class="card">
+<h3>🧠 Projetos Experimentais</h3>
+<p>Automações, bots e ideias criativas.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Skills</h2>
+<div class="skills">
+<div class="skill">Python</div>
+<div class="skill">Pygame</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">APIs</div>
+<div class="skill">Git</div>
+</div>
+</section>
+
+<footer>
+© 2026 Felipe Mesquita
+</footer>
+
+</body>
+</html>
