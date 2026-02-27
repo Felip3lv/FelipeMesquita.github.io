@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Felipe Mesquita | Desenvolvedor</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0b0b0b;
+color:#e6e6e6;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(180deg,#0b0b0b,#111);
+}
+
+header h1{
+font-family:'Playfair Display',serif;
+font-size:3.5rem;
+color:#d4af37;
+}
+
+header p{
+margin-top:15px;
+color:#aaa;
+}
+
+section{
+padding:100px 10%;
+}
+
+.section-title{
+font-family:'Playfair Display',serif;
+font-size:2.2rem;
+color:#d4af37;
+margin-bottom:50px;
+border-bottom:1px solid #333;
+padding-bottom:15px;
+}
+
+.project{
+display:flex;
+gap:40px;
+margin-bottom:80px;
+flex-wrap:wrap;
+align-items:center;
+}
+
+.project img{
+width:450px;
+border-radius:15px;
+box-shadow:0 10px 40px rgba(0,0,0,0.6);
+}
+
+.project-info h3{
+font-size:1.6rem;
+margin-bottom:15px;
+color:#d4af37;
+}
+
+.cert-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:40px;
+}
+
+.cert-grid img{
+width:100%;
+border-radius:15px;
+box-shadow:0 10px 40px rgba(0,0,0,0.7);
+transition:0.3s;
+}
+
+.cert-grid img:hover{
+transform:scale(1.03);
+}
+
+footer{
+text-align:center;
+padding:40px;
+border-top:1px solid #222;
+color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Felipe Mesquita</h1>
+<p>Desenvolvedor de Jogos 2D • Python • Inteligência Artificial</p>
+</header>
+
+<section>
+<h2 class="section-title">Projetos</h2>
+
+<div class="project">
+<img src="images/jogo1.png">
+<div class="project-info">
+<h3>Projeto 01 - Jogo 2D em Python</h3>
+<p>Desenvolvimento completo utilizando Pygame com sistema de colisão, movimentação fluida, lógica de inimigos e progressão de dificuldade.</p>
+</div>
+</div>
+
+<div class="project">
+<img src="images/jogo2.png">
+<div class="project-info">
+<h3>Projeto 02 - Sistema de IA</h3>
+<p>Chatbot integrado com API de Inteligência Artificial, implementando lógica de memória básica e personalização de respostas.</p>
+</div>
+</div>
+
+</section>
+
+<section>
+<h2 class="section-title">Certificados</h2>
+
+<div class="cert-grid">
+<img src="images/certificado_jogos.png">
+<img src="images/certificado_python.png">
+</div>
+
+</section>
+
+<footer>
+© 2026 Felipe Mesquita
+</footer>
+
+</body>
+</html>
